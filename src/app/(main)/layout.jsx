@@ -8,8 +8,9 @@ const MainLayout = ({children}) => {
     <>
 
     <Header/>
-    <Navbar/>
     <BreakingNews/>
+    <Navbar/>
+    
 
     {children}
 
